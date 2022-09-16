@@ -1,0 +1,24 @@
+package loopDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//FOR
+		for(int i=1;i<10;i+=2)
+		{
+			System.out.println(i);
+		}
+		System.out.println("For Döngüsü bitti");
+		
+		int i=1;
+		//While
+		while(i<10) {
+			System.out.println(i);
+			i+=2;
+			
+		}
+		
+		System.out.println("While Döngüsü bitti");
+	}
+
+}

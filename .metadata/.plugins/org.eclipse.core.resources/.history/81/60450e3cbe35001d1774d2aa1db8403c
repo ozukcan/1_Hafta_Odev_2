@@ -1,0 +1,19 @@
+package stringsDemo2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugün hava çok güzel.";
+		System.out.println(mesaj);
+		
+		//Replace = karakterlerin değiştirilmesidir.
+		
+		String yeniMesaj = mesaj.replace(' ', '-');
+		System.out.println(yeniMesaj);
+		
+		//Substring = Bir metnin içinden parça almaya yarar
+		System.out.println(mesaj.substring(2,4)); //kaçıncı indexten itibaren almak istiyorsak parantez içine yazıcaz
+		
+	}
+
+}

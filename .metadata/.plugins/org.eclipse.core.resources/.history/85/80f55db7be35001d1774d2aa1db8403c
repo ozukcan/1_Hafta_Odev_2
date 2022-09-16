@@ -1,0 +1,28 @@
+package stringsDemo2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugün hava çok güzel.";
+		System.out.println(mesaj);
+		System.out.println("-------------------------------");
+		
+		//Replace = karakterlerin değiştirilmesidir.
+		String yeniMesaj = mesaj.replace(' ', '-');
+		System.out.println(yeniMesaj);
+		System.out.println("-------------------------------");
+		
+		//Substring = Bir metnin içinden parça almaya yarar
+		System.out.println(mesaj.substring(2,5)); //(kaçıncı indexten,kaçıncı index'e kadar) almak istiyorsak parantez içine yazıcaz
+		System.out.println("-------------------------------");
+		
+		//Split = Bir metni belli bir karakter veya karakter dizisini dikkate alarak parçalamaya yarar
+		for(String kelime : mesaj.split(" ")) {
+			System.out.println(kelime);
+		}
+		System.out.println("-------------------------------");
+		
+		//
+	}
+
+}

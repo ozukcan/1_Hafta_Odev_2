@@ -1,0 +1,18 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 25;
+		for(int i=2;i<25;i++)
+		{
+			if(number % i == 0) {
+				System.out.println("Sayi asal değildir");
+			}
+		}
+		System.out.println("Sayı asal sayıdır.");
+
+	}
+	
+
+}

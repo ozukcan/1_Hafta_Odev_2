@@ -1,0 +1,18 @@
+package arrayDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Bir öğretmenin sınıfındaki öğrencileri sıralayalım.
+		
+		String ogrenci1 = "Engin";
+		String ogrenci2 = "Hüseyin";
+		String ogrenci3 = "Murat";
+		
+		System.out.println(ogrenci1);
+		System.out.println(ogrenci1);
+		System.out.println(ogrenci1);
+
+	}
+
+}

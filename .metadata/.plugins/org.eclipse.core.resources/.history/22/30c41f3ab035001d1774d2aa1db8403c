@@ -1,0 +1,11 @@
+package switchDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Bir öğrencinin sınavdan aldığı puana göre sonuç döndüren program
+		char grade = //grade = not
+
+	}
+
+}

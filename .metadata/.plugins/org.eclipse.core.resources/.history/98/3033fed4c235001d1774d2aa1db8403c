@@ -1,0 +1,11 @@
+package mukemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Mükemmel sayı = Kendinden başka pozitif tüm tam bölenlerin toplamı kendisine eşit olan sayılar mükemmel sayıdır
+		//6 --> 1,2,3 = Toplamları 6 yapar
+
+	}
+
+}
